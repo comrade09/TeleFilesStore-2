@@ -96,9 +96,9 @@ async def start_command(client: Client, message: Message):
         )
     ],
     [
-        InlineKeyboardButton(text="Commands 📓", callback_data="about"),
+        InlineKeyboardButton(text="About Me 📓", callback_data="about"),
         InlineKeyboardButton(
-            text="My Info ⚡", url="https://t.me/tpx_bots"
+            text="My Owner ⚡", url="https://t.me/Ath2023"
         ),
     ],
     [
@@ -106,7 +106,7 @@ async def start_command(client: Client, message: Message):
             text="Support ✨", url=f"https://t.me/tpxsupport404"
         ),
         InlineKeyboardButton(
-            text="Updates 📡 ", url=f"https://t.me/tpx_bots"
+            text="Updates 📡 ", url=f"https://t.me/Linllockernet"
         ),
     ],
 ]
