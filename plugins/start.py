@@ -106,7 +106,7 @@ async def start_command(client: Client, message: Message):
             text="Support ✨", url=f"https://t.me/tpxsupport404"
         ),
         InlineKeyboardButton(
-            text="Updates 📡 ", url=f"https://t.me/Linllockernet"
+            text="Updates 📡 ", url=f"https://t.me/Linklockernet"
         ),
     ],
 ]
