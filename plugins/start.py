@@ -92,21 +92,21 @@ async def start_command(client: Client, message: Message):
             [
     [
         InlineKeyboardButton(
-            text="Add Me to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="Add Me to your group ", url=f"t.me/pdf_heaven_bot?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
+        InlineKeyboardButton(text="Commands 📓", callback_data="about"),
         InlineKeyboardButton(
             text="My Info ⚡", url="https://t.me/tpx_bots"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Support ✨", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Support ✨", url=f"https://t.me/tpxsupport404"
         ),
         InlineKeyboardButton(
-            text="Updates 📡 ", url=f"https://t.me/{UPDATES_CHANNEL}"
+            text="Updates 📡 ", url=f"https://t.me/tpx_bots"
         ),
     ],
 ]
