@@ -90,11 +90,26 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
-                ]
-            ]
+    [
+        InlineKeyboardButton(
+            text="Add Me to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+        )
+    ],
+    [
+        InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="My Info ⚡", url="https://t.me/tpx_bots"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="Support ✨", url=f"https://t.me/{SUPPORT_CHAT}"
+        ),
+        InlineKeyboardButton(
+            text="Updates 📡 ", url=f"https://t.me/{UPDATES_CHANNEL}"
+        ),
+    ],
+]
         )
         await message.reply_text(
             text = START_MSG.format(
