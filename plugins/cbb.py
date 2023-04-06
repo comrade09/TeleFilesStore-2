@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='https://t.me/+nuPiMH77sNE2ZWVl'>SINHAGIRI VISUAL STUDIO™</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Cloned Source Code : <a href='https://github.com/prasad-kmd/TeleFilesStore-2'>TeleFilesStore-2</a>\n○ Channel : @sinhagiri_visual_studio\n○ Support Group : <a href='https://t.me/+JfwbBo_nlnNkZmU9'>@games_softwares_community</a></b>",
+            text = f"<b>○ Creator : <a href='https://t.me/tpx_bots'>ᴛᴘx ʙᴏᴛꜱ ɴᴇᴛᴡᴏʀᴋ™</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Cloned Source Code : <a href='https://github.com'>TeleFilesStore-2</a>\n○ channel : @tpx_bots\n○ Support Group : <a href='https://t.me/tpx_bots'>@tpx_bots</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("Close", callback_data = "ᴄʟᴏꜱᴇ")
                     ]
                 ]
             )
